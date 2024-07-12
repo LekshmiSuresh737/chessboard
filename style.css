@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); /* Adjust the size of squares as needed */
+    grid-template-rows: repeat(8, 50px); /* Adjust the size of squares as needed */
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: #777;
+}
+
+.light {
+    background-color: #c7c7c7;
+}
